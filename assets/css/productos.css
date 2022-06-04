@@ -1,0 +1,114 @@
+.imgProduct{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 60%;
+    height: 100%;
+
+    border-radius: 50px;
+}
+.containerImgProduct{
+    width: 40vmax;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contendPart1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.descriptionProduct{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 40vmax;
+}
+.btnProduct{
+    height: 33px;
+    width: 60%;
+    background-color: #4E63C3;
+    border-radius: 50px;
+    text-decoration: none;
+    margin-top: 1rem;
+
+    color: #ffffff;
+    font-family: 'Poppins Regular';
+    font-size: 14px;
+    box-shadow: 10px 10px 50px 5px rgba(0, 0, 0, 0.25);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.descriptionTitle{
+    margin-bottom: 0.5rem;
+    width: 60%;
+    color: rgba(229, 229, 229, 0.91);
+
+    font-family: 'Poppins Medium';
+    font-size: 26px;
+}
+.descriptionContend{
+    margin-bottom: 2.5rem;
+    width: 60%;
+    color: rgba(229, 229, 229, 0.91);
+
+    font-family: 'Poppins Light';
+    font-size: 16px;
+}
+.precioProductTitle{
+    margin-bottom: 0.5rem;
+    width: 60%;
+    color: rgba(229, 229, 229, 0.91);
+
+    font-family: 'Poppins Medium';
+    font-size: 26px;
+}
+.precioProductDescription{
+    margin-bottom: 1.5rem;
+    width: 60%;
+    color: rgba(229, 229, 229, 0.91);
+
+    font-family: 'Poppins Light';
+    font-size: 16px;
+}
+.input{
+    width: 25vmax;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #E5E5E5;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 0px;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+
+    color: #E5E5E5;
+    font-family: 'Poppins Regular';
+    font-size: 16px;
+}
+.contend2Part1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+ol.detallesList{
+    margin-top: 2rem;
+    list-style:none;
+    font-family: 'Poppins Regular';
+    font-size: 16px;
+    margin-left: 1rem;
+}
+li.detallesList{
+    color: #FFFFFF;  
+}
+.mt-2{
+    margin-top: 1.5rem;
+}
