@@ -7,14 +7,14 @@
 <html lang="en">
 <head>
     <?php
-        include './layers/head.php';
+        include './layouts/head.php';
     ?>
     <link rel="stylesheet" href="./assets/css/store.css">
     <title>CyC Acabados Arquitectónicos | Home</title>
 </head>
 <body>
     <?php
-        include './layers/header.php';
+        include './layouts/header.php';
     ?>
     <div class="part2">
         <div class="titlePart">
@@ -39,7 +39,7 @@
         </div>
     </div>
     <?php
-        include './layers/footer.php';
+        include './layouts/footer.php';
     ?>
 </body>
 </html>

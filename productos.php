@@ -5,7 +5,7 @@
 <html lang="en">
 <head>
     <?php
-        include './layers/head.php';
+        include './layouts/head.php';
     ?>
     <title>CyC Acabados Arquitectónicos | Home</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -13,7 +13,7 @@
 </head>
 <body>
     <?php
-        include './layers/header.php';
+        include './layouts/header.php';
     ?>
      <div class="part1">
         <div class="titlePart">
@@ -75,7 +75,7 @@
         </div>
      </div>
     <?php
-        include './layers/footer.php';
+        include './layouts/footer.php';
     ?>
 
     <!--
