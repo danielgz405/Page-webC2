@@ -1,5 +1,5 @@
 <?php
-    $id = 7;
+    include './pito.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -17,7 +17,7 @@
     ?>
      <div class="part1">
         <div class="titlePart">
-            <h1 class="titlePart"><?php ?></h1>
+            <h1 class="titlePart"><?php echo $can?></h1>
             <p class="contendPart">
                 Te ayudamos Con La Asesoría y Visualización De Tu Proyecto,
                 Asesoramiento De Materiales, Acabados y Propuesta De Iluminació
@@ -57,17 +57,21 @@
                 <h1 class="titlePart">Galeria</h1>
             </div>
             <div class="galeriaDinamica">
-                <div class="bannerGaleriaMain">
-                    <div class="imgSecundarias">
-                        <div class="imgItemGaleria" style="background-image: url(./assets/img/productos/<?php ?>);"></div>
-                    </div>
+                <div class="bannerGaleriaMain" id="fondo">
                     <div class="btnMoveGaleria">
-                        <div class="izq">
-                            <img src="./assets/img/productos/Vector 4.svg" alt="" class="btnIzq">
+                        <div class="izq btns">
+                            <img src="./assets/img/productos/Vector 4.svg" alt="" class="btnIzq flecha">
                         </div>
-                        <div class="der">
-                            <img src="./assets/img/productos/Vector 2.svg" alt="" class="btnDer">
+                        <div class="der btns">
+                            <img src="./assets/img/productos/Vector 2.svg" alt="" class="btnDer flecha">
                         </div>
+                    </div>
+                </div>
+                <div class="imgsContainer">
+                    <div class="imgSecundarias" id="container_galery">
+                        <div class="imgItemGaleria" id="container_galery_son" style="background-image: url(./assets/img/productos/<?php ?>); background: #5a1c5a;"></div>
+                        <div class="imgItemGaleria" id="container_galery_son" style="background-image: url(./assets/img/productos/<?php ?>); background: #5c3109;"></div>
+                        <div class="imgItemGaleria" id="container_galery_son" style="background-image: url(./assets/img/productos/<?php ?>); background: #005d36;"></div>
                     </div>
                 </div>
             </div>
@@ -77,27 +81,27 @@
     <?php
         include './layouts/footer.php';
     ?>
-
-    <!--
     <script>
-        function realizaProceso(valorCaja1, valorCaja2){
-                var parametros = {
-                        "valorCaja1" : valorCaja1,
-                        "valorCaja2" : valorCaja2
-                };
-                $.ajax({
-                        data:  parametros, //datos que se envian a traves de ajax
-                        url:   'ejemplo_ajax_proceso.php', //archivo que recibe la peticion
-                        type:  'post', //método de envio
-                        beforeSend: function () {
-                                $("#resultado").html("Procesando, espere por favor...");
-                        },
-                        success:  function (response) { //una vez que el archivo recibe el request lo procesa y lo devuelve
-                                $("#resultado").html(response);
-                        }
-                });
+        function realizaProceso(v1){
+            var parametros = {
+                "can" : v1,
+            };
+            console.log(parametros)
+            $.ajax({
+                    data:  v1, //datos que se envian a traves de ajax
+                    url:   './pito.php', //archivo que recibe la peticion
+                    type:  'POST', //método de envio
+                    beforeSend: function () {
+                        console.log("esperando")
+                            // $("#resultado").html("Procesando, espere por favor...");
+                    },
+                    success:  function (response) { //una vez que el archivo recibe el request lo procesa y lo devuelve
+                        console.log("success")   
+                        // $("#resultado").html(response);
+                    }
+            });
         }
     </script>
-     -->
+    <script src="./assets/js/galery_move.js"></script>  
 </body>
 </html>
