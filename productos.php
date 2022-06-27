@@ -82,25 +82,7 @@
         include './layouts/footer.php';
     ?>
     <script>
-        function realizaProceso(v1){
-            var parametros = {
-                "can" : v1,
-            };
-            console.log(parametros)
-            $.ajax({
-                    data:  v1, //datos que se envian a traves de ajax
-                    url:   './pito.php', //archivo que recibe la peticion
-                    type:  'POST', //método de envio
-                    beforeSend: function () {
-                        console.log("esperando")
-                            // $("#resultado").html("Procesando, espere por favor...");
-                    },
-                    success:  function (response) { //una vez que el archivo recibe el request lo procesa y lo devuelve
-                        console.log("success")   
-                        // $("#resultado").html(response);
-                    }
-            });
-        }
+        //const image = ["url(./assets/img/productos/<?php ?>)"];   
     </script>
     <script src="./assets/js/galery_move.js"></script>  
 </body>

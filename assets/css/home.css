@@ -77,6 +77,7 @@
 
 .productoH{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items:center;
     justify-content: space-around;
@@ -157,4 +158,112 @@
 .googleMaps{
     border-radius: 50px;
     box-shadow: 10px 10px 50px 5px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 1143px) {
+    .serviciosParte1{
+        margin: 1rem;
+    }
+    .cabeceraTitle{
+        font-size: 20px;
+    }
+    .pieParte1{
+        width: 240px;
+    }
+    .pieText{
+        font-size: 13px;
+    }
+    .pieImg{
+        width: 50px;
+    }
+    .productoH{
+        margin-top: 4rem;
+        margin-bottom: 7rem;
+    }
+    .productoHR{
+        margin-top: 4rem;
+        margin-bottom: 7rem;
+    }
+    .productoText{
+        width: 40%;
+    }
+    .productoTitle{
+        font-size: 20px;
+        margin-bottom: 1rem;
+    }
+    .productoContend{
+        font-size: 12px;
+        margin-bottom: 1rem;
+    }
+    .imgProduct1{
+        width: 400px;
+        filter: drop-shadow(-50px 6px 50px rgba(0, 0, 0, 0.25));
+    }
+    .productoBtn{
+        height: 33px;
+        width: 175px;
+    }
+    .googleMaps{
+        width: 80vw;
+        border-radius: 50px;
+        box-shadow: 10px 10px 50px 5px rgba(0, 0, 0, 0.25);
+    }
+}
+@media (max-width: 987px) {
+    .imgProduct1{
+        width: 300px;
+        filter: drop-shadow(-50px 6px 50px rgba(0, 0, 0, 0.25));
+    }
+    .imgProduct2{
+        width: 300px;
+    }
+    .imgProduct3{
+        width: 300px;
+    }
+}
+@media (max-width: 739px) {
+    .googleMaps{
+        width: 95vw;
+        border-radius: 50px;
+        box-shadow: 10px 10px 50px 5px rgba(0, 0, 0, 0.25);
+    }
+}
+@media (max-width: 618px) {
+    .productoH{
+        flex-direction: column;
+    }
+    .productoHR{
+        flex-direction: column;
+    }
+    .imgProduct1{
+        height: 300px;
+        filter: drop-shadow(-50px 6px 50px rgba(0, 0, 0, 0.25));
+    }
+    .imgProduct2{
+        height: 200px;
+    }
+    .imgProduct3{
+        height: 200px;
+    }
+    .productoText{
+        margin-bottom: 2rem;
+    }
+ 
+}
+
+@media (max-width: 348px) {
+
+    .imgProduct1{
+        width: 85vw
+    }
+    .imgProduct2{
+        width: 85vw
+    }
+    .imgProduct3{
+        width: 85vw
+    }
+    .googleMaps{
+        width: 90vw;
+    }
+ 
 }

@@ -30,7 +30,7 @@
                 <div class="pieParte1">
                     <p class="pieText">Tienda de materiales para la construcción</p>
                     <img src="./assets/img/Home/Icon.png" alt="" class="pieImg">
-                    <a href="" class="btnPie">Saber Mas</a>
+                    <a href="./servicioIndi.php" class="btnPie">Saber Mas</a>
                 </div>
             </div>
             <div class="serviciosParte1">
@@ -40,7 +40,7 @@
                 <div class="pieParte1">
                     <p class="pieText">Tienda de materiales para la construcción</p>
                     <img src="./assets/img/Home/Icon.png" alt="" class="pieImg">
-                    <a href="" class="btnPie">Saber Mas</a>
+                    <a href="./servicioIndi.php" class="btnPie">Saber Mas</a>
                 </div>
             </div>
             <div class="serviciosParte1">
@@ -50,7 +50,7 @@
                 <div class="pieParte1">
                     <p class="pieText">Tienda de materiales para la construcción</p>
                     <img src="./assets/img/Home/Icon.png" alt="" class="pieImg">
-                    <a href="" class="btnPie">Saber Mas</a>
+                    <a href="./servicioIndi.php" class="btnPie">Saber Mas</a>
                 </div>
             </div>
             <div class="serviciosParte1">
@@ -60,7 +60,7 @@
                 <div class="pieParte1">
                     <p class="pieText">Tienda de materiales para la construcción</p>
                     <img src="./assets/img/Home/Icon.png" alt="" class="pieImg">
-                    <a href="" class="btnPie">Saber Mas</a>
+                    <a href="./servicioIndi.php" class="btnPie">Saber Mas</a>
                 </div>
             </div>
         </div>
@@ -78,7 +78,7 @@
                         Variedad en tonos, calidad en nuestros productos, corazón en nuestros proyectos.
                         Agenda con nosotros! 
                     </p>
-                    <a href="" class="productoBtn">Store</a>
+                    <a href="./store.php" class="productoBtn">Store</a>
                 </div>
                 <div class="productoImg">
                     <img src="./assets/img/Home/techo4.png" alt="" class="imgProduct1">
@@ -91,7 +91,7 @@
                         Diseñamos tus espacios, tu lo imaginas nosotros lo hacemos realidad.
                         Cotiza con  nosotros, programa tu toma de medidas
                     </p>
-                    <a href="" class="productoBtn">Store</a>
+                    <a href="./store.php" class="productoBtn">Store</a>
                 </div>
                 <div class="productoImg padding">
                     <img src="./assets/img/Home/closets3.png" alt="" class="imgProduct2">
@@ -104,7 +104,7 @@
                         Variedad en tonos, calidad en nuestros productos, corazón en nuestros proyectos.
                         Agenda con nosotros! 
                     </p>
-                    <a href="" class="productoBtn">Store</a>
+                    <a href="./store.php" class="productoBtn">Store</a>
                 </div>
                 <div class="productoImg padding">
                     <img src="./assets/img/Home/pisoslaminados3.png" alt="" class="imgProduct3 ">

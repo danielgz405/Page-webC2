@@ -8,7 +8,7 @@
     border-radius: 50px;
 }
 .containerImgProduct{
-    width: 40vmax;
+    width: 40vw;
     height: 550px;
     display: flex;
     justify-content: center;
@@ -17,6 +17,7 @@
 .contendPart1{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -26,7 +27,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 40vmax;
+    width: 40vw;
 }
 .btnProduct{
     height: 33px;
@@ -129,6 +130,7 @@ li.detallesList{
     margin-right: 2.5rem;
 }
 .btns{
+    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -179,4 +181,39 @@ li.detallesList{
     height: 70%;
     border-radius: 50px;
     background: #E5E5E5;
+}
+
+@media (max-width: 1143px) {
+    .containerImgProduct{
+        width: 45vw;
+        height: 550px;
+    }
+    .descriptionProduct{
+        width: 50vw;
+    }
+}
+@media (max-width: 987px) {
+    .containerImgProduct{
+        width: 80vw;
+        height: 550px;
+    }
+    .descriptionProduct{
+        margin-top: 4rem;
+        width: 80vw;
+    }
+}
+@media (max-width: 618px) {
+    .containerImgProduct{
+        width: 100vw;
+        height: 450px;
+    }
+    .descriptionProduct{
+        margin-top: 4rem;
+        width: 100vw;
+    }
+    .galeriaDinamica{
+        margin: auto;
+        width: 95vw;
+        margin-bottom: 1rem;
+    }
 }

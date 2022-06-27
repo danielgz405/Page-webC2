@@ -4,8 +4,9 @@ let pxDisplay =  (innerWidth/2)
 let galery = document.getElementById("container_galery");
 let galerySon = document.getElementById("container_galery_son");
 let fondo = document.getElementById("fondo");
-const color = ["#762476", "#9b5410", "#009d5b"];
+const color = ["#762476", "#9b5410", "#009d5b", "#eeeeee"];
 let sizeComplet = galerySon.clientWidth+28.8;
+let sizeDisplay = 0;
 i = -(galery.clientWidth);
 
 setInterval('move()', time);
@@ -17,6 +18,14 @@ console.log(galerySon.clientWidth+29)
 console.log(sizeComplet + (galerySon.clientHeight+29))
 
 let cantidad = 0;
+
+if(innerWidth/2 < 760){
+    sizeDisplay =  768 - (innerWidth/2);
+}else if(innerWidth/2 > 760){
+    sizeDisplay =  768 - (innerWidth/2);
+}else{
+    sizeDisplay = 0;
+}
 
 for (let i = 1; i <= 100; i++) {
     const sizeSon = galerySon.clientWidth+28.8
@@ -36,25 +45,32 @@ console.log(cantidad);
 
 function move() {
     i++
-    if (i == pxDisplay) {
+    if (i == Math.round(pxDisplay)) {
         i = -(galery.clientWidth);
         let contador = i + "px";
+        sonTime = 0
         galery.style.right = contador;
         console.log(contador)
         fondo.style.background = "#4E63C3"
     } else {
         let contador = i + "px";
-        let sonTime = (galery.clientWidth/cantidad)
         galery.style.right = contador;
+        chageColor(cantidad, sizeDisplay);
+    }
+}
 
-        for (let j = 0; j < cantidad; j++) {
-            console.log(i)
-            console.log(sonTime)
-            if (i == Math.round(sonTime)) {
-                fondo.style.background = color[j]
-                console.log(color[j])
-            }
-            sonTime = sonTime + galery.clientWidth/cantidad;
+function chageColor(can, dis){
+    let sonTime = (galery.clientWidth/can)
+
+    for (let j = 0; j <= can; j++) {
+        if (Math.round(i+dis) == Math.round(sonTime)) {
+            fondo.style.background = color[j]
+            console.log(color[j])
+            console.log(Math.round(sonTime))
+            console.log(Math.round(i+dis))
+            console.log(sizeComplet/4)
+            console.log(j)
         }
+        sonTime = sonTime + galery.clientWidth/can;
     }
 }

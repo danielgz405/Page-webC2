@@ -26,13 +26,13 @@
     </div>
     <div class="footerRedes">
         <a class="iconRedFooter" href="https://www.instagram.com/cycacabadosarquitectonicos/" target="_blank" rel="noopener noreferrer">
-            <img src="./assets/img/Header/nav/instagram.png" alt="" height="40px">
+            <img src="./assets/img/Header/nav/instagram.png" class="imgRedes" alt="">
         </a>
         <a class="iconRedFooter" href="https://www.facebook.com/CyC-Acabados-Arquitect%C3%B3nicos-710518899741022/?ref=page_internal" target="_blank" rel="noopener noreferrer">
-            <img src="./assets/img/Header/nav/facebook.png" alt="" height="40px">
+            <img src="./assets/img/Header/nav/facebook.png" class="imgRedes" alt="">
         </a>
         <a class="iconRedFooter" href="https://api.whatsapp.com/send?phone=573243681513" target="_blank" rel="noopener noreferrer">
-            <img src="./assets/img/Header/nav/whatsapp.png" alt="" height="40px">
+            <img src="./assets/img/Header/nav/whatsapp.png" class="imgRedes" alt="">
         </a>
     </div>
 </div>

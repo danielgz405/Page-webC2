@@ -23,3 +23,18 @@
     border-radius: 50px;
     cursor: pointer;
 }
+
+@media (max-width: 1284px) {
+    .galeriaImgContainer{
+        width: 80vw;
+        grid: 360px / 24vw 30vw 24vw;
+    }
+}
+
+@media (max-width: 739px) {
+    .galeriaImgContainer{
+        width: 80vw;
+        height: 240vh;
+        grid: 80vh / 80vw;
+    }
+}
