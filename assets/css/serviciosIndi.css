@@ -277,6 +277,21 @@
         margin-top: 4rem;
         width: 80vw;
     }
+    .ContactIcon{
+        width: 70vw;
+    }
+    .contact{
+        margin-top: 3rem;
+        width: 70vw;
+    }
+    .inputContact{
+        width: 80%;
+        text-align: center;
+
+    }
+    .btnInputContact{
+        width: 80%;
+    }
 }
 @media (max-width: 618px) {
     .containerImgProduct{
@@ -291,5 +306,12 @@
         margin: auto;
         width: 95vw;
         margin-bottom: 1rem;
+    }
+    .ContactIcon{
+        width: 80vw;
+    }
+    .contact{
+        margin-top: 3rem;
+        width: 80vw;
     }
 }
