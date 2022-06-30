@@ -407,14 +407,14 @@ a.list{
 @media (max-width: 618px) {
 
     .banner{
-        height: 85vh !important;
+        height: 80vh !important;
     }
     .nav_text{
         display: none !important;
     }
     .nav{
         position: fixed;
-        transform: translate(0px, 40vh);
+        transform: translate(0px, 45vh);
         z-index: 5;
     }
     .imgItem{

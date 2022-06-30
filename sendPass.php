@@ -30,6 +30,16 @@
                                 $("#resultado").html(response);
                         }
                 });
+                $.ajax({
+                                data:  value, //datos que se envian a traves de ajax
+                                url:   'contact.php', //archivo que recibe la peticion
+                                type:  'post', //método de envio
+                                beforeSend: function () {},
+                                success:  function (response) { //una vez que el archivo recibe el request lo procesa y lo devuelve
+                                        console.log('ok')
+                                        window.location.href = '/App-web/C^2/contact.php'
+                                }
+                        });
         }
     </script>
      -->

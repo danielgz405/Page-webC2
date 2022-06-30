@@ -104,7 +104,7 @@ switch ($id) {
                 </a>
             </div>
             <div>
-                <a class="Item" href="contact.php?defineBa=0">
+                <a class="Item" href="contact.php?defineBa=<?php echo $id;?>">
                     <div class="itemC <?php echo $borderCon?>">
                             <img class="imgItem" src="./assets/img/nav/Icon.png" alt="">
                             <H1 class="nav_text">Contacto</H1>

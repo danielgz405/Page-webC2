@@ -31,7 +31,7 @@
                         ligula ac eleifend egestas. Donec pharetra, sapien quis cursus fermentum, 
                         arcu augue varius turpis,  
                     </p>
-                    <a href="" class="productoBtn">Saber Mas</a>
+                    <a href="./servicioIndi.php?servise=0" class="productoBtn">Saber Mas</a>
                 </div>
                 <div class="productoImg imgProduct1">
                 </div>
@@ -44,7 +44,7 @@
                         ligula ac eleifend egestas. Donec pharetra, sapien quis cursus fermentum, 
                         arcu augue varius turpis,
                     </p>
-                    <a href="" class="productoBtn">Saber Mas</a>
+                    <a href="./store.php" class="productoBtn">Saber Mas</a>
                 </div>
                 <div class="productoImg imgProduct2">
                 </div>
@@ -57,7 +57,7 @@
                         ligula ac eleifend egestas. Donec pharetra, sapien quis cursus fermentum, 
                         arcu augue varius turpis, 
                     </p>
-                    <a href="" class="productoBtn">Saber Mas</a>
+                    <a href="./servicioIndi.php?servise=1" class="productoBtn">Saber Mas</a>
                 </div>
                 <div class="productoImg imgProduct3">
                 </div>
@@ -70,7 +70,7 @@
                         ligula ac eleifend egestas. Donec pharetra, sapien quis cursus fermentum, 
                         arcu augue varius turpis,
                     </p>
-                    <a href="" class="productoBtn">Saber Mas</a>
+                    <a href="./servicioIndi.php?servise=2" class="productoBtn">Saber Mas</a>
                 </div>
                 <div class="productoImg imgProduct4">
                 </div>

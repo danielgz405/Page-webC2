@@ -32,7 +32,6 @@ for (let i = 1; i <= 100; i++) {
     if(Math.round(galery.clientWidth) == Math.round(sizeComplet)){
         cantidad = i;
         console.log(cantidad);
-        realizaProceso(cantidad)
         i = 100;
     }else{
         console.log(sizeComplet)
@@ -51,7 +50,7 @@ function move() {
         sonTime = 0
         galery.style.right = contador;
         console.log(contador)
-        fondo.style.background = "#4E63C3"
+        fondo.style.backgroundImage = `url(./assets/img/${file}/${image})`
     } else {
         let contador = i + "px";
         galery.style.right = contador;
@@ -64,8 +63,8 @@ function chageColor(can, dis){
 
     for (let j = 0; j <= can; j++) {
         if (Math.round(i+dis) == Math.round(sonTime)) {
-            fondo.style.background = color[j]
-            console.log(color[j])
+            fondo.style.backgroundImage = `url(./assets/img/${file}/${images[j]})`
+            console.log(images[j])
             console.log(Math.round(sonTime))
             console.log(Math.round(i+dis))
             console.log(sizeComplet/4)

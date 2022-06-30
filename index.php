@@ -30,7 +30,7 @@
                 <div class="pieParte1">
                     <p class="pieText">Tienda de materiales para la construcción</p>
                     <img src="./assets/img/Home/Icon.png" alt="" class="pieImg">
-                    <a href="./servicioIndi.php" class="btnPie">Saber Mas</a>
+                    <a href="./servicioIndi.php?servise=0" class="btnPie">Saber Mas</a>
                 </div>
             </div>
             <div class="serviciosParte1">
@@ -40,7 +40,7 @@
                 <div class="pieParte1">
                     <p class="pieText">Tienda de materiales para la construcción</p>
                     <img src="./assets/img/Home/Icon.png" alt="" class="pieImg">
-                    <a href="./servicioIndi.php" class="btnPie">Saber Mas</a>
+                    <a href="./store.php" class="btnPie">Saber Mas</a>
                 </div>
             </div>
             <div class="serviciosParte1">
@@ -50,7 +50,7 @@
                 <div class="pieParte1">
                     <p class="pieText">Tienda de materiales para la construcción</p>
                     <img src="./assets/img/Home/Icon.png" alt="" class="pieImg">
-                    <a href="./servicioIndi.php" class="btnPie">Saber Mas</a>
+                    <a href="./servicioIndi.php?servise=1" class="btnPie">Saber Mas</a>
                 </div>
             </div>
             <div class="serviciosParte1">
@@ -60,7 +60,7 @@
                 <div class="pieParte1">
                     <p class="pieText">Tienda de materiales para la construcción</p>
                     <img src="./assets/img/Home/Icon.png" alt="" class="pieImg">
-                    <a href="./servicioIndi.php" class="btnPie">Saber Mas</a>
+                    <a href="./servicioIndi.php?servise=2" class="btnPie">Saber Mas</a>
                 </div>
             </div>
         </div>
