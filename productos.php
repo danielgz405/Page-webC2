@@ -30,6 +30,9 @@
 </head>
 <body>
     <?php
+        include './layouts/bodyScript.php';
+    ?>
+    <?php
         include './layouts/header.php';
     ?>
     <div id="containerPrin">
@@ -150,7 +153,7 @@
     <script>
         const stylesAwait = "text-align: center;position: relative;width: 80vh;margin-left: auto;margin-right: auto;color: #05090b;font-family: 'Poppins Semi Bold';font-size: 12;padding: 1rem;background: linear-gradient(to bottom, #dfdfff, #2af5d0);left: 0rem;border-radius: 10px;box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;"; 
         function enviar() {
-            var dta = '&product='+value.name+'&meters='+value.meters+'&use='+value.use+'&finish='+value.finish+'&format='+value.format+'&meterBox='+value.metersByBoxes+'&color='+value.color+'&brand='+value.brand+'&ref='+value.ref;
+            var dta = '&product='+value.name+'&boxes='+value.boxes+'&meters='+value.meters+'&use='+value.use+'&finish='+value.finish+'&format='+value.format+'&meterBox='+value.metersByBoxes+'&color='+value.color+'&brand='+value.brand+'&ref='+value.ref;
             var dataen = `${$("#contactoForm").serialize()}${dta}`;
             var allData = dataen;
             console.log(allData)

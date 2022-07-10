@@ -1,6 +1,5 @@
 <?php
 use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
 require './src/Exception.php';
@@ -19,6 +18,7 @@ if(isset($_POST['email']) && isset($_POST['name']) && isset($_POST['phone']) && 
     $text = 'Mensaje: '.$_POST['text'].'<br/>';
 
     $product = '<br/>Nombre del producto: '. $_POST['product'].'<br/>';
+    $box = 'Cajas: '. $_POST['boxes'].'<br/>';
     $meters = 'Metros: '. $_POST['meters'].'<br/>';
     $use = 'Uso: '.$_POST['use'].'<br/>';
     $finish = 'Acabado: '.$_POST['finish'].'<br/>';
@@ -36,7 +36,7 @@ if(isset($_POST['email']) && isset($_POST['name']) && isset($_POST['phone']) && 
         $mail->Host = 'smtp.office365.com'; //Set the SMTP server to send through
         $mail->SMTPAuth = true; //Enable SMTP authentication
         $mail->Username = 'danielfelipeg405@hotmail.com'; //SMTP username
-        $mail->Password = 'Danielgz405'; //SMTP password
+        $mail->Password = 'Qwerty102336'; //SMTP password
         $mail->SMTPSecure = 'tls'; //Enable implicit TLS encryption
         $mail->Port = 587; //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
@@ -49,7 +49,7 @@ if(isset($_POST['email']) && isset($_POST['name']) && isset($_POST['phone']) && 
 
         $mail->isHTML(true);  //Set email format to HTML
         $mail->Subject = $_POST['name'].' Quiere solicitar un producto';
-        $mail->Body    = $name.$email.$phone.$text.'<br/> Caracteristicas del producto solicitado <br/>'.$product.$meters.$use.$finish.$meterBox.$color.$brand.$ref;
+        $mail->Body    = $name.$email.$phone.$text.'<br/> Caracteristicas del producto solicitado <br/>'.$product.$box.$meters.$use.$finish.$meterBox.$color.$brand.$ref;
         $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
         $mail->send();
@@ -76,7 +76,7 @@ if(isset($_POST['email']) && isset($_POST['name']) && isset($_POST['phone']) && 
         $mail->Host = 'smtp.office365.com'; //Set the SMTP server to send through
         $mail->SMTPAuth = true; //Enable SMTP authentication
         $mail->Username = 'danielfelipeg405@hotmail.com'; //SMTP username
-        $mail->Password = 'Danielgz405'; //SMTP password
+        $mail->Password = 'Qwerty102336'; //SMTP password
         $mail->SMTPSecure = 'tls'; //Enable implicit TLS encryption
         $mail->Port = 587; //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
@@ -112,7 +112,7 @@ if(isset($_POST['email']) && isset($_POST['name']) && isset($_POST['phone']) && 
         $mail->Host = 'smtp.office365.com'; //Set the SMTP server to send through
         $mail->SMTPAuth = true; //Enable SMTP authentication
         $mail->Username = 'danielfelipeg405@hotmail.com'; //SMTP username
-        $mail->Password = 'Danielgz405'; //SMTP password
+        $mail->Password = 'Qwerty102336'; //SMTP password
         $mail->SMTPSecure = 'tls'; //Enable implicit TLS encryption
         $mail->Port = 587; //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 

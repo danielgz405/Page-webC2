@@ -12,6 +12,9 @@
 </head>
 <body>
     <?php
+        include './layouts/bodyScript.php';
+    ?>
+    <?php
         include './layouts/header.php';
     ?>
     <div class="part1">

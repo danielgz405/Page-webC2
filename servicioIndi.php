@@ -10,7 +10,7 @@
                 //Instalaciones
                 $title='Instalaciones';
                 $description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim ligula ac eleifend egestas. Donec pharetra, sapien quis cursus fermentum, arcu augue varius turpis, a pellentesque arcu orci ut sapien. Praesent porttitor dui id quam aliquam bibendum. Sed et pellentesque sapien, vel fringilla tortor. Quisque non dui sed felis porta maximus id quis magna. Curabitur laoreet ex et purus tristique, ut tempor justo feugiat. Nunc a leo';
-                $price='220.000 COP';
+                $price='120.000 COP';
                 $image='./assets/img/servicios/maxresdefault.jpg';
                 break;
             case "1b":
@@ -24,7 +24,7 @@
                 //Muebles en Madera
                 $title='Muebles en Madera';
                 $description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim ligula ac eleifend egestas. Donec pharetra, sapien quis cursus fermentum, arcu augue varius turpis, a pellentesque arcu orci ut sapien. Praesent porttitor dui id quam aliquam bibendum. Sed et pellentesque sapien, vel fringilla tortor. Quisque non dui sed felis porta maximus id quis magna. Curabitur laoreet ex et purus tristique, ut tempor justo feugiat. Nunc a leo';
-                $price='220.000 COP';
+                $price='520.000 COP';
                 $image='./assets/img/servicios/274165568_860045744788336_4703714102050422884_n.png';
                 break;
         }
@@ -43,6 +43,9 @@
     <title>CyC Acabados Arquitectónicos | Servicios</title>
 </head>
 <body>
+    <?php
+        include './layouts/bodyScript.php';
+    ?>
     <?php
         include './layouts/header.php';
     ?>
