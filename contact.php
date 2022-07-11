@@ -1,5 +1,6 @@
 
 <?php
+
     switch ($_GET["defineBa"]) {
         case "0":
             //home
